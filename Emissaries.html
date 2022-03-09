@@ -20,6 +20,10 @@
         color: rgb(204, 206, 216);
         font-size: 25px;
       }
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
       footer {
         padding: 50px;
         background: linear-gradient(
@@ -43,14 +47,14 @@
     <nav>
       <ul type="none">
         <a href="index.html" traget="_blank"><li>Home</li></a>
-        <a href="page2.html" traget="_blank"><li>Emissarys</li></a>
+        <a href="Emissaries.html" traget="_blank"><li>Emissarys</li></a>
       </ul>
     </nav>
 
     <br />
 
     <main>
-      <p>
+      <p style="margin-right: 200px; margin-left: 200px">
         Emissaries are a way for pirates to represent one of the five trading
         companys. Sailing as an emissary will provide your crew with many
         benefits like higher payouts and reputation gains and specific treasure
@@ -58,6 +62,9 @@
         you can represent are the Gold Hoarders, Order of Souls, the Merchant
         Alliance, Reaper's Bones, and Athena's Fortune. To represent a company
         one of your crew mates must buy the emissary flag of that company.
+        Emissaries have 5 grades that will give a higher bonus for each grade as
+        well as a higher flag retrieval bonus. Each company will have a emissary
+        quest that will be unlocked a grade V.
       </p>
       <br />
       <img
@@ -65,11 +72,58 @@
         class="center"
         width="1280"
         height="350"
-        alt=""
+        alt="A picture of 5 pirates and there ships"
       />
+
       <br />
-      <p></p>
+      <table style="text-align: center" border="1" frame="void" rules="columns">
+        <tr>
+          <th>Grade</th>
+          <th>Boost</th>
+          <th>Retrived Flag</th>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td>Base Reward</td>
+          <td>0$</td>
+        </tr>
+        <tr>
+          <td>II</td>
+          <td>+33% Base Reward</td>
+          <td>750$</td>
+        </tr>
+        <tr>
+          <td>III</td>
+          <td>+67% Base Reward</td>
+          <td>1750$</td>
+        </tr>
+        <tr>
+          <td>IV</td>
+          <td>100% Base Reward</td>
+          <td>3000$</td>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td>150% Base Reward</td>
+          <td>5000$</td>
+        </tr>
+      </table>
+      <br />
+      <h2 style="margin-right: 900px; margin-left: 300px">Gold Hoarders</h2>
+      <p style="margin-right: 900px; margin-left: 100px">
+        The Gold Hoarders emissary requiers the flag buyer to be rank 15.
+      </p>
+
+      <br />
+
+      <fieldset>
+        <legend>Which emissary would you Choose:</legend>
+        <form name="" id="" method="get">
+          <label for="Emissary">Favorite Emissary:</label>
+        </form>
+      </fieldset>
     </main>
+    <br />
     <footer></footer>
   </body>
 </html>
