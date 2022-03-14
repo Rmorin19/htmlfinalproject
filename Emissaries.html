@@ -1,3 +1,8 @@
+<!--
+  Name:Riley Morin
+  Course:
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,7 +69,7 @@
         one of your crew mates must buy the emissary flag of that company.
         Emissaries have 5 grades that will give a higher bonus for each grade as
         well as a higher flag retrieval bonus. Each company will have a emissary
-        quest that will be unlocked a grade V.
+        quest that will be unlocked at grade V.
       </p>
       <br />
       <img
@@ -117,9 +122,43 @@
       <br />
 
       <fieldset>
-        <legend>Which emissary would you Choose:</legend>
-        <form name="" id="" method="get">
-          <label for="Emissary">Favorite Emissary:</label>
+        <legend>Favorite Emissary:</legend>
+        <form target="_blank">
+          <label for="emissary">Please input your favorite emissary:</label>
+          <br />
+          <select name="emissary" id="emissary">
+            <option value="gold hoarders">Gold Hoarders</option>
+            <option value="order of souls">Order of Souls</option>
+            <option value="merchant alliance">Merchant Alliance</option>
+            <option value="reaper's bones">Reapers Bones</option>
+            <option value="athena's fortune">Athena's Fortune</option>
+          </select>
+          <br />
+          <br />
+          <label for="emissary">
+            Please input the reason why that is your favorite emissary:
+          </label>
+          <br />
+          <textarea id="emissary" name="emissart" rows="3" cols="50">
+          </textarea>
+          <br />
+          <br />
+          <label>If you were to make a emissary what would you call it?:</label>
+          <br />
+          <input type="text" id="emissary" name="emissary" />
+          <br />
+          <br />
+          <label>Please put the colour of the new emissary:</label>
+          <br />
+          <input
+            type="color"
+            id="emissarycolour"
+            name="emissarycolour"
+            value="#ff0000"
+          />
+          <br />
+          <br />
+          <input type="submit" />
         </form>
       </fieldset>
     </main>
