@@ -43,6 +43,18 @@
         margin-right: auto;
         width: 45%;
       }
+      .left {
+        display: block;
+        margin-left: 100px;
+        margin-right: 800px;
+        width: 45%;
+      }
+      .right {
+        display: block;
+        margin-left: 800px;
+        margin-right: 100px;
+        width: 45%;
+      }
     </style>
   </head>
   <body>
@@ -66,10 +78,10 @@
         items for the company that your crew is representing. The companys that
         you can represent are the Gold Hoarders, Order of Souls, the Merchant
         Alliance, Reaper's Bones, and Athena's Fortune. To represent a company
-        one of your crew mates must buy the emissary flag of that company.
-        Emissaries have 5 grades that will give a higher bonus for each grade as
-        well as a higher flag retrieval bonus. Each company will have a emissary
-        quest that will be unlocked at grade V.
+        one of your crew mates must buy the emissary flag of that company. Each
+        flag cost 20000 gold. Emissaries have 5 grades that will give a higher
+        bonus for each grade as well as a higher flag retrieval bonus. Each
+        company will have a emissary quest that will be unlocked at grade V.
       </p>
       <br />
       <img
@@ -113,11 +125,103 @@
           <td>5000$</td>
         </tr>
       </table>
+
       <br />
-      <h2 style="margin-right: 900px; margin-left: 300px">Gold Hoarders</h2>
-      <p style="margin-right: 900px; margin-left: 100px">
-        The Gold Hoarders emissary requiers the flag buyer to be rank 15.
+
+      <h2 style="margin-right: 500px; margin-left: 650px">Gold Hoarders</h2>
+      <p class="center">
+        The Gold Hoarders emissary flag can be bought from any gold hoarder at
+        the outposts. The Gold Hoarders emissary quest can be bought from any
+        gold hoarder once the crew has reached emissary grade 5. To get to
+        higher grades you must bring treasure chests to th gold hoarders.
+        Unfortuantly only one emissary quest may be bought per emissary flag.
+        The Gold Hoarders quest gives the crew 4 treasure maps with 5 x's each.
+        The chest's unearthed will always be Captain's chests.
       </p>
+      <img
+        src="https://d.newsweek.com/en/full/853883/sea-thieves-treasure-chests-guide-no-gold-hoarders-voyages-how-drop-chest.webp?w=790&f=69431f46eb404e20755c78233bd84763"
+        alt="A picture of a gold hoarder pirate looking at you"
+        width=""
+        height=""
+        class="center"
+      />
+
+      <br />
+
+      <h2 style="margin-right: 500px; margin-left: 650px">Order of Souls</h2>
+      <p class="center">
+        The Order of Souls emissary much like the Gold Hoarders emissary
+        requires you to bring treasure to rank up but to them tresure is
+        skeleton sculls. To get these sculls you must fight waves of skeletons
+        in the strongholds. Another thing you can do is fight skeleton captains
+        that can be found on many islands through out the ocean. The skeleton
+        captains will drop sculls aswell. This emissary quest gives the crew
+        bounty maps with skeleton captains that will each drop a scull.
+      </p>
+      <img
+        src="https://cdn.guidestash.com/wp-content/uploads/2019/07/08211220/Skeleton-Forts-in-Sea-of-Thieves-Explained-1300x731.jpg.webp"
+        alt="A birds eye view of a skeleton stronghold"
+        width=""
+        height=""
+        class="center"
+      />
+
+      <br />
+
+      <h2 style="margin-right: 500px; margin-left: 650px">Merchant Alliance</h2>
+      <p class="center">
+        The Merchant Alliance's way of ranking up is for you to give them
+        Crates, Animals, Gunpower Barrels or Mermaid Gems. You can find these
+        things on most islands and you should not find much trouble getting
+        them. This quest will have your crew recive to maps with 10 crates that
+        must be delivered to other merchants in 30 in game days.
+      </p>
+      <img
+        src="https://cdn.mos.cms.futurecdn.net/VSypHb7qEyMnkcc43xMpi5-1024-80.jpg.webp"
+        alt="A picture of an old merchant looking at her compasse"
+        width=""
+        height=""
+        class="center"
+      />
+
+      <br />
+
+      <h2 style="margin-right: 500px; margin-left: 650px">Reper's Bones</h2>
+      <p class="center">
+        The Repers Bones emissary will grant you the ability to rank up after
+        you returne with the emissary flags of others aswell as treasure. To get
+        the flags you must sink there ships. The flag can only be bought at
+        Reapers Hideout from the servant of the flame. Once you have reached
+        grade V you will be able to see other ships on your map making it easier
+        to find and sink other ships. Unfortuantly this emissary doesn't have a
+        quest and the only place to give back the flags and treasure is Reapers
+        Hideout it is a more difficult emissary.
+      </p>
+      <img
+        src="https://rarethief.com/wp-content/uploads/2020/04/sea-of-thieves-the-reapers-hideout-1024x576.png"
+        alt="A spooky picture of reapers hideout"
+        width=""
+        height=""
+        class="center"
+      />
+      <h2 style="margin-right: 500px; margin-left: 650px">Athena's Fortune</h2>
+      <p class="center">
+        The Athena's Fortune emissary is only avalible once you have be
+        acknowledged as a pirate lord. You can get the flag at Athena's Hideout
+        or from mysterious srangers in taverns. The quest wil give your crew a
+        treasure map with 7 x's, a riddle map that finds a collectors chest and
+        a bounty map with 4 skeleton captains to kill. Once those tasks have
+        been completed you will recive a treasure map with 2 x's with one
+        unearthing a chest of legends and the other a keg of ancient black
+        powder.
+      </p>
+      <img
+        src="https://media-mercury.cursecdn.com/attachments/8/381/sotpiratelegendimg1.jpg"
+        alt="a picture of pirates in athena's hideout"
+        width=""
+        height=""
+        class="center"
+      />
 
       <br />
 
@@ -139,7 +243,7 @@
             Please input the reason why that is your favorite emissary:
           </label>
           <br />
-          <textarea id="emissary" name="emissart" rows="3" cols="50">
+          <textarea id="emissary" name="emissary" rows="3" cols="50">
           </textarea>
           <br />
           <br />
